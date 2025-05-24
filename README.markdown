@@ -39,8 +39,8 @@ To run this project, you need the following dependencies:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/emotion-detection.git
-   cd emotion-detection
+   git clone https://github.com/hemasriram111/live-face-emotion-detection
+   
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -56,10 +56,7 @@ To run this project, you need the following dependencies:
 
 4. Ensure you have a compatible webcam connected for real-time detection.
 
-## Dataset
-The model is trained on a facial expression dataset located at `C:\Users\hemas\Downloads\archive (6)\images\train`. The dataset should be organized in subdirectories, each representing one of the seven emotion classes (Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral). You can replace this with any compatible dataset, such as the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013).
 
-## Usage
 1. **Train the Model**:
    - Run the training script to train the CNN model:
      ```bash
